@@ -34,7 +34,7 @@ namespace TestApp
                         int userSector = Convert.ToInt32(Console.ReadLine()) - 1;
                         if (sectors.Length <= userSector || userSector < 0)
                         {
-                            Console.WriteLine("That sector doesn't exist!");
+                            Console.WriteLine("That sector doesn't exist.");
                         }
                         Console.Write("Please enter how many seats you wish to book: ");
                         int userPlaceAmount = Convert.ToInt32(Console.ReadLine());
